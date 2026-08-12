@@ -1,6 +1,8 @@
 var API_URL = "https://api.openweathermap.org/data/2.5/weather";
 var STORAGE_KEY = "weatherSearchHistory";
+var MAX_HISTORY = 5;
 
+$(function () {
     // Popover ifall platsen kan inte hittas
     var popover = new bootstrap.Popover("#search-input", {
         trigger: "manual",
