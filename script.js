@@ -7,7 +7,7 @@ $(function () {
     var popover = new bootstrap.Popover("#search-input", {
         trigger: "manual",
         title: "Location not found",
-        content: "We couldn't find any location matching your search. Please try again!"
+        content: "We couldn't find the city. Please try again!"
     });
 
 
